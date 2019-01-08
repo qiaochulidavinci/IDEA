@@ -1,0 +1,32 @@
+<application>
+  <component name="BuiltInServerOptions" builtInServerAvailableExternally="true" allowUnsignedRequests="true" />
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/Desktop/intellij-java-google-style.xml" />
+  </component>
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="C:/Program Files/nodejs/node.exe">
+      <version-cache version="6.11.2" last-modified="1501581448000" />
+      <npm-package value="C:/Program Files/nodejs/node_modules/npm" />
+    </local-interpreter>
+  </component>
+  <component name="SvgViewer.Settings">
+    <option name="PLUGIN_ENABLED" value="true" />
+  </component>
+  <component name="com.seventh7.widget.iedis.config.I">
+    <pattern>*</pattern>
+    <pattern>*flash db</pattern>
+    <pattern>* *flash db</pattern>
+    <pattern>* flush db</pattern>
+    <pattern>flush db</pattern>
+  </component>
+  <component name="com.seventh7.widget.iedis.config.ServerConfigurations">
+    <servers>
+      <general label="127.0.0.1" host="127.0.0.1" port="6379" password="" timestamp="1500920918983" />
+    </servers>
+  </component>
+</application>

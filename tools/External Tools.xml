@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="JRebel" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\apache-tomcat-8.5.12\bin\catalina-jrebel.bat" />
+      <option name="PARAMETERS" value="run" />
+      <option name="WORKING_DIRECTORY" value="C:/apache-tomcat-8.5.12/bin" />
+    </exec>
+  </tool>
+</toolSet>

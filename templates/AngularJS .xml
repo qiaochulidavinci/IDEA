@@ -1,0 +1,58 @@
+<templateSet group="AngularJS ">
+  <template name="$w" value="$scope.$watch('$watchExpr$',function(newValue, oldValue){&#10;  $END$&#10;}, true);" description="Define a $watch for an expression. You can change the expression  to be watched." toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="watchExpr" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="log" value="console.log('$VAR1$', $VAR2$);" description="console.log" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="table" value="console.table()" description="console.table" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="typeof" value="if (typeof != 'undefined') {&#10;}" description="typeof undefined" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ngfactory" value="factory('$factoryName$', function($dependencies$){&#10;  &#10;    let variable;&#10;  &#10;    return {&#10;        setVariable: function (x) {&#10;            variable = x;&#10;        },&#10;        getVariable: function () {&#10;            return variable;&#10;        }&#10;    }&#10; &#10;  $END$&#10;});" description="A factory in a module" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="factoryName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dependencies" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ngservice" value="service('$serviceName$', function($injectables$) {&#10;    let that = this,&#10;        variable;&#10;        &#10;    this.getVariable = function() {&#10;        return variable;&#10;    };&#10;    &#10;    this.setVariable = function(x) {&#10;        variable = x;&#10;    }&#10;    $END$&#10;});" description="Define an Angular Module Service to be attached to a previously defined module. You can change the service name and service injectables." toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="serviceName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="injectables" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ngd" value="    .directive('',[function () {&#10;        return {&#10;            restrict: '',&#10;            template: ``,&#10;//            scope: false,&#10;//            replace: true,&#10;            link: function (scope, element, attrs) {&#10;            &#10;            }&#10;        };&#10;    }])" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ngpf" value="function () {&#10;    let deferred = $q.defer();&#10;    deferred.resolve();&#10;    return deferred.promise;&#10;};" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="timeout" value="$timeout(function () {&#10;    $END$&#10;}, 0);" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lam" value="$VAR1$ =&gt; $VAR2$" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

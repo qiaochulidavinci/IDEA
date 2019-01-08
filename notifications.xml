@@ -1,0 +1,8 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="IGNORE_GROUP" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="JRebel non-sticky" displayType="NONE" shouldLog="false" />
+    <notification groupId="JRebel sticky" displayType="NONE" shouldLog="false" />
+    <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" shouldLog="false" />
+  </component>
+</application>
