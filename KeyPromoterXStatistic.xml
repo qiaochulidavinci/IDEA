@@ -1,12 +1,12 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
-      <Statistic Action="Declaration">
+      <Statistic Action="Generate...">
         <Item>
-          <IdeaActionID>GotoDeclaration</IdeaActionID>
-          <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
-          <Description>Declaration</Description>
-          <Count>10</Count>
+          <IdeaActionID>Generate</IdeaActionID>
+          <ShortCut>'Alt+Insert'</ShortCut>
+          <Description>Generate...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Implementation(s)">
@@ -23,6 +23,14 @@
         <Item>
           <IdeaActionID>Annotate</IdeaActionID>
           <Description>Annotate</Description>
+        </Item>
+      </Statistic>
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
