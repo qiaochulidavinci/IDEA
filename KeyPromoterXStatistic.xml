@@ -103,6 +103,14 @@
           <Description>Refresh all Gradle projects</Description>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'Remote Debug'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'Remote Debug'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Resume Program">
         <Item>
           <IdeaActionID>Resume</IdeaActionID>
