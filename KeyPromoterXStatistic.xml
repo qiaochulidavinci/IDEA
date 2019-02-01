@@ -49,6 +49,12 @@
           <Description>Annotate</Description>
         </Item>
       </Statistic>
+      <Statistic Action="DB Execution Console">
+        <Item>
+          <IdeaActionID>ActivateDBExecutionConsoleToolWindow</IdeaActionID>
+          <Description>DB Execution Console</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug">
         <Item>
           <IdeaActionID>ActivateDebugToolWindow</IdeaActionID>
