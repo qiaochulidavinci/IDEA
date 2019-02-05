@@ -9,6 +9,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Find Data">
+        <Item>
+          <IdeaActionID>DBNavigator.Actions.ExecutionResult.FindData</IdeaActionID>
+          <ShortCut>'Ctrl+F'</ShortCut>
+          <Description>Find Data</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Generate...">
         <Item>
           <IdeaActionID>Generate</IdeaActionID>
